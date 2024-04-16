@@ -30,7 +30,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <TargetFramework>net47</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <Version>4.8.8</Version>
     <Authors>Winston Fletcher</Authors>

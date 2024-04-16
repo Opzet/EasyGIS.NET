@@ -992,6 +992,8 @@ namespace EGIS.ShapeFileLib
         public override string ToString()
         {
             return string.Format(System.Globalization.CultureInfo.InvariantCulture,"{0},{1}", new object[] { Latitude, Longitude });
+            
+            //return (String.Format("E{0:F5} N{1:F5}", longitude, latitude));//
         }
 
         /// <summary>

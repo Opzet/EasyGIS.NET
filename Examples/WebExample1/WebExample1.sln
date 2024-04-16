@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\WebExample1\", ".", "{BF404A00-C8A2-4C4C-8938-FAF0F5F4792E}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/WebExample1"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\users\wfletcher\working\egis\sample_code\WebExample1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebExample1\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebExample1"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\users\wfletcher\working\egis\sample_code\WebExample1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebExample1\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4977"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF404A00-C8A2-4C4C-8938-FAF0F5F4792E}.Debug|.NET.ActiveCfg = Debug|.NET
+		{BF404A00-C8A2-4C4C-8938-FAF0F5F4792E}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

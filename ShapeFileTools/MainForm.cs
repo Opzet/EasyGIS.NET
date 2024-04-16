@@ -37,6 +37,7 @@ using System.Xml;
 using EGIS.ShapeFileLib;
 using System.Drawing.Printing;
 using EGIS.Projections;
+using System.Diagnostics;
 
 namespace egis
 {
@@ -73,7 +74,8 @@ namespace egis
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            CheckLicence();
+            if(!Debugger.IsAttached)
+                CheckLicence();
 
             try            
             {

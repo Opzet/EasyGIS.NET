@@ -12,12 +12,7 @@
 #ignore this file
 #.gitignore
 #ignore shapefiles
-*.shp
-*.dbf
-*.shx
-*.shpx
-*.egp
-*.prj
+
 #ignore build directories
 Debug
 Release
@@ -35,19 +30,7 @@ texastilecache
 WebTest/bin
 geomutil_lib/VS2008
 geomutil_lib/egis_geomutil.sdf
-WebTest/demos/new_hampshire
-WebTest/demos/texas
-WebTest/demos/HI_data
-WebTest/demos/openlayers
-WebTest/demos/mb
-TexasVectorTileHandler.*
-HIVectorTileHandler.*
 .vs/
-/WebTest/demos/demo2_files/j5505_nativevegetationareas.prj
-/WebTest/demos/new_hampshire_files/new_hampshire_natural.prj
-/WebTest/demos/new_hampshire_files/new_hampshire_highway.prj
-/WebTest/demos/VectorTiles
-/WebTest/demos/covid19
 packages
 EGIS.Controls.nuspec
 EGIS.ShapeFileLib.nuspec

@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <!--<TargetFramework>netstandard2.0</TargetFramework>-->
-    <TargetFrameworks>net47;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net48;net6.0-windows</TargetFrameworks>
     <OutputType>Library</OutputType>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
@@ -17,7 +17,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>False</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>egis.snk</AssemblyOriginatorKeyFile>
@@ -62,12 +62,10 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
   </ItemGroup>
- 
   <ItemGroup>    
-    <None Include="build\net47\**" Pack="true" PackagePath="\build\net47" />    
-  </ItemGroup>
   <ItemGroup>    
-    <None Include="build\net6.0\**" Pack="true" PackagePath="\build\net6.0" />    
+    <None Include="build\net48\**" Pack="true" PackagePath="\build\net48" />    
+  </ItemGroup>    <None Include="build\net6.0\**" Pack="true" PackagePath="\build\net6.0" />    
   </ItemGroup>
   <ItemGroup>    
     <None Include="build\net6.0-windows\**" Pack="true" PackagePath="\build\net6.0-windows" />    
